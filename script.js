@@ -5,3 +5,7 @@ function handleClick(){
     document.getElementById("poga").textContent = mainigais;
 }
 
+//Uztaisīt pogu ar tekstu saglabāt
+// kas ļauj klikšķu skaitu saglabāt datu bāzes tabulā
+//1 datu bāzē uztaisīt tabulu
+//2.piesledzies datu bazei

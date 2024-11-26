@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker counter</title>
+</head>
+<body>
+    <!--Izveidota poga ar interneta palīdzību (ne chat gpt)-->
+    <button id="click">Boom</button>
+    <p>
+        Poga nospiesta <span id="radit">0</span> reizes
+    </p>
+    <script type="text/javascript">
+        let count = 0;
+        let click = document.getElementById("click");
+        let radit = document.getElementById("radit");
+         
+        click.onclick = function () {
+                    count++;
+        radit.innerHTML = count;
+        }
+    </script>
+
+    <!--Poga veidot klasē-->
+    <p>
+        Klases poga: 
+    </p>
+    <button id="poga" onclick="handleClick()">0</button>
+    <script src="script.js"></script>
+</body>
+</html>
